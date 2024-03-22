@@ -85,9 +85,9 @@ fun main() {
     println("Page 20:")
     val games = listOf("Fallout", "Mount & Blade", "Dishonored" , "Baldur's Gate")
     games.filter{it.startsWith("B")}
-    			.map{ it.uppercase()}
+    		.map{ it.uppercase()}
                 .sortedBy{it}
-    			.forEach{println(it)}
+    		.forEach{println(it)}
                 
     //page 21 -Null check
     val obj: String? = "Pillow"
